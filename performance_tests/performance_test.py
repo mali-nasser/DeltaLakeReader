@@ -8,7 +8,7 @@ import pandas as pd
 import pyspark
 from pyspark.sql.functions import col, rand, when
 
-from deltalake import DeltaTable
+from deltalakereader import DeltaTable
 
 spark = (
     pyspark.sql.SparkSession.builder.appName("deltalake")

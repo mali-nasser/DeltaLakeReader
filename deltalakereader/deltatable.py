@@ -7,7 +7,7 @@ from fsspec.implementations.local import LocalFileSystem
 from fsspec.spec import AbstractFileSystem
 from pyarrow.dataset import dataset as pyarrow_dataset
 
-from deltalake.schema import schema_from_string
+from deltalakereader.schema import schema_from_string
 
 
 class DeltaTable:
